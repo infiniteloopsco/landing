@@ -1,0 +1,35 @@
+.navigation {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 30px;
+  z-index: 99;
+}
+
+.navigation .brand,
+.navigation .menu {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation .brand {
+  width: 10%;
+}
+
+.navigation .menu {
+  width: 90%;
+  text-align: right;
+}
+
+.navigation .menu a {
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}

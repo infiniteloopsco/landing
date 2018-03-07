@@ -1,0 +1,41 @@
+.introFunctions {
+  padding: 100px 0;
+  position: relative;
+  background-image: url("./grid.png");
+  background-size: cover;
+  background-position: top center;
+}
+
+.introFunctions .wrapper > p,
+.introFunctions h1,
+.introFunctions h6 {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.introFunctions h6 {
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+.introFunctions h1 {
+  font-family: Nunito;
+  font-size: 44px;
+  line-height: 48px;
+  background: -webkit-linear-gradient(260deg, #00ddcc, #00a8da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0;
+}
+
+.introFunctions .wrapper > p {
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 23px;
+}

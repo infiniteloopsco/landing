@@ -1,0 +1,74 @@
+.intro {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  display: block;
+  position: relative;
+  background: linear-gradient(
+    225.1deg,
+    #00ddcc 0%,
+    #00a8da 65.18%,
+    #516ae9 100%
+  );
+  mask-image: url("./mask.svg");
+  mask-position: center;
+}
+
+.intro::before {
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  content: "";
+  background-image: url("./circle-patch.png");
+  background-position: top top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.intro .wrapper {
+  z-index: 2;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  padding: 200px 0 30px;
+}
+
+.intro .wrapper .copy {
+  width: 60%;
+  display: inline-block;
+}
+
+.intro .wrapper .copy h1 {
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 66px;
+  margin: 0;
+  padding: 0;
+}
+
+.intro .wrapper .copy p {
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+
+.intro .wrapper .call-to-action {
+  border-radius: 100px;
+  background: linear-gradient(315deg, #ff7676 0%, #f54ea2 100%);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.27);
+  color: white;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  padding: 10px 30px;
+}
