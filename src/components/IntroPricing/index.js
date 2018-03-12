@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 const IntroPricing = ({}) => (
   <div className="pricing">
@@ -17,19 +18,25 @@ const IntroPricing = ({}) => (
         <h5>Pricing Calculator</h5>
 
         <div className="inputForm">
-          <label>Memori Size</label>
+          <label>
+            Memori Size <span>(in MB)</span>
+          </label>
           <input type="range" />
           <input type="number" disabled value={1} />
         </div>
 
         <div className="inputForm">
-          <label>Execution Time</label>
+          <label>
+            Execution Time <span>(in seconds)</span>
+          </label>
           <input type="range" />
           <input type="number" disabled value={1} />
         </div>
 
         <div className="inputForm">
-          <label>Executions</label>
+          <label>
+            Executions <span>(in MB)</span>
+          </label>
           <input type="range" />
           <input type="number" disabled value={1} />
         </div>

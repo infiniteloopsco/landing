@@ -1,0 +1,55 @@
+.pricing {
+  margin: 180px 0;
+}
+
+.pricing .content,
+.pricing .quoter {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.pricing .content {
+  padding: 0 45px;
+}
+
+.pricing .content .title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: Nunito;
+  font-size: 44px;
+  line-height: 45px;
+  background: -webkit-linear-gradient(260deg, #25dccc, #1ba9d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing .content .description {
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 24px;
+  line-height: 29px;
+}
+.pricing .quoter {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.pricing .quoter .inputForm {
+  display: flex;
+}
+
+.pricing .quoter .inputForm label {
+  flex: 1;
+  color: #ff0044;
+}
+
+.pricing .quoter .inputForm input[type="range"] {
+  flex: 2;
+}
+
+.pricing .quoter .inputForm input[type="number"] {
+  flex: 1;
+}
